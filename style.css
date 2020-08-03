@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(90deg, #004873 , #9AE3C7);
+}
+.content .h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+.content .elements{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus, .number, .menos{
+    width: 33.3%;
+    font-size: 4em;
+    cursor: default;
+}
+
+.plus_p, .number_p, .menos_p{
+    width: fit-content;
+    margin: 0px auto;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: #03153D;
+    border-radius: 50%;
+    border: solid whitesmoke;
+    cursor: default;
+}
+
+
+
+
+
+
